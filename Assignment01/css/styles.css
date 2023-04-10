@@ -1,0 +1,86 @@
+body {
+  margin: 2px;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 1000px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+  padding: 40px;
+}
+
+h2 {
+  color: cornflowerblue;
+}
+
+.section-content {
+  font-size: 120%;
+  margin-bottom: 5%;
+}
+
+table tr td ul {
+  list-style: none;
+}
+
+.td_hoc_van {
+  width: 35%;
+}
+
+.td_kinh_nghiem {
+  width: 35%;
+}
+
+hr {
+  background-color: cornflowerblue;
+  margin-top: -1%;
+  margin-bottom: 2%;
+}
+
+table {
+  border-collapse: collapse;
+}
+.table table td {
+  border-bottom: 1px solid #ccc;
+}
+
+.table table td ul li {
+  padding-bottom: 5px;
+}
+.table table tr td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.thongtin tr td {
+  padding-right: 70px;
+  padding-bottom: 10px;
+}
