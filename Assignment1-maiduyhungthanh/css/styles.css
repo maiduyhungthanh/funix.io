@@ -1,0 +1,122 @@
+body {
+  margin: 0px;
+}
+/* Xóa het cac hight wiid */
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+  padding: 40px 100px 40px 100px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.cv-target {
+  width: 14%;
+}
+.cv-infomation {
+  width: 77%;
+}
+
+#info h2 {
+  border-bottom: 0px;
+}
+.cv-target ul {
+  list-style: none;
+  font-weight: bold;
+}
+
+.cv-infomation ul {
+  list-style: none;
+}
+
+.cv-image img {
+  width: 115px;
+  height: 115px;
+  margin-top: -20px;
+}
+
+.cv {
+  display: flex;
+  margin-top: -20px;
+  margin-left: -40px;
+}
+.cv div ul li {
+  padding-bottom: 10px;
+}
+.section-title {
+  border-bottom: 1px ridge grey;
+  margin-top: 30px;
+}
+.section-content {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#target div p {
+  word-spacing: 2px;
+}
+.education-element {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.082);
+}
+.timeline {
+  width: 20%;
+}
+#education li,
+#experience li #activity li {
+  padding-bottom: 7px;
+  margin-top: -5px;
+}
+.school {
+  font-weight: 800;
+}
+#skill .timeline {
+  font-weight: 800;
+}
+#skill .education-element,
+#certificate .education-element {
+  max-height: 30px;
+}
+#hobby ul,
+#project ul {
+  list-style: inside;
+  margin-left: -40px;
+}
+#project h4 {
+  margin-bottom: -15px;
+}
+#project li {
+  word-spacing: 2px;
+}
+#contact li {
+  margin-bottom: 5px;
+}
+#contact {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.082);
+}

@@ -1,0 +1,162 @@
+/* chung */
+* {
+  margin: 0px;
+}
+.container {
+  background-color: blue;
+  border-top: 20px solid blue;
+  border-bottom: 20px solid blue;
+  border-left: 8px solid blue;
+  border-right: 8px solid blue;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  box-sizing: border-box;
+}
+.container h1 {
+  color: blue;
+  font-size: 25px;
+  padding: 10px 10px 10px 10px;
+  border-bottom: 1px solid #bfd0cc;
+}
+.container h4 {
+  font-size: 15px;
+  padding: 10px 10px 0px 10px;
+}
+.container i {
+  font-size: 30px;
+}
+.element {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 20px;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.conten {
+  padding: 0px 10px 0px 10px;
+  font-size: 13px;
+}
+/* frame-1 */
+.container .frame-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-right: 20px;
+  gap: 20px;
+}
+.frame-1 > div {
+  background-color: #f0f8ff;
+  padding: 0px 20px 0px 20px;
+}
+/* Goals */
+.element-goal {
+  border-bottom: 0.1px groove #e0ebee;
+}
+
+/* Scopes */
+.in-out {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.in-out h4 {
+  font-size: 25px;
+}
+
+/* Timeline */
+.timeline {
+  background-color: #f0f8ff;
+  padding-bottom: 50px;
+  padding-right: 0px;
+}
+.main-timeline {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.number-timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.number-timeline p {
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: #9e88ff;
+  color: aliceblue;
+  font-weight: 600;
+  padding: 10px;
+  font-size: 20px;
+  margin: 0;
+  width: 54px;
+  height: 54px;
+  text-align: center;
+}
+
+.content-timeline {
+  border-bottom: 1px dotted #52bdc2;
+  margin-right: 10px;
+}
+
+/* Mobile + Tablet*/
+@media screen and (max-width: 992px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .element {
+    padding-top: 10px;
+    display: block;
+  }
+  /* timeline */
+  .timeline {
+    background-color: #f0f8ff;
+    padding-bottom: 50px;
+    border-left: 12px solid blue;
+  }
+  .number-timeline {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  /* frame-1 */
+  .goals {
+    grid-area: g;
+  }
+  .team {
+    grid-area: t;
+  }
+  .scopes {
+    grid-area: s;
+  }
+  .primary {
+    grid-area: p;
+  }
+  .container .frame-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-right: 0px;
+    grid-template-areas:
+      "g"
+      "s"
+      "t"
+      "p";
+  }
+  .container .frame-1 > div {
+    padding-bottom: 50px;
+  }
+  /* Scopes */
+  .in-out {
+    display: block;
+  }
+}

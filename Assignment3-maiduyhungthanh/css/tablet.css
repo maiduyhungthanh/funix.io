@@ -1,0 +1,55 @@
+@media screen and (max-width: 992px) and (min-width: 576px) {
+  /* Phần navbar */
+  .name {
+    display: none;
+  }
+
+  /* Phần job */
+  #job-info .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  /* Phần chứng chỉ */
+  .certificate-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 20px 20px 0px;
+    gap: 0px;
+  }
+
+  .img_1 {
+    border-right: 1px solid orange;
+    padding-right: 20px;
+  }
+  /* .img_2 {
+    padding-right: 20px;
+  } */
+  .img_3 {
+    padding-right: 20px;
+  }
+  /* Phần dự án */
+  .project-wrapper {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+  }
+  .project-item {
+    width: 32%;
+  }
+  .project-item h4 {
+    font-size: 15px;
+  }
+  .project-item .time-line {
+    font-size: 10px;
+    gap: 0px;
+    padding: 5px;
+  }
+  .project-item .time-line > div {
+    padding: 5px;
+  }
+
+  .project-description > table > tbody > tr > td {
+    padding: 4px;
+  }
+}
