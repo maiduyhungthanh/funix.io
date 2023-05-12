@@ -31,4 +31,8 @@
     padding-top: 20px;
     gap: 40px;
   }
+  /* footer */
+  .icon-footer {
+    display: none;
+  }
 }
